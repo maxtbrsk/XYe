@@ -1,0 +1,372 @@
+*{
+    transition: all 0.3s ease;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+}
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-top: 10vh;
+    background-color: black;
+}
+body {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+}
+.roleta {
+    background-color: #00acee;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    height: 50px;
+    width: 13vw;
+    border: #00acee;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 2vw;
+    margin-right: 20px;
+}
+.roleta:hover {
+    background-color: #00abeebe;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #555555;
+    justify-self: center;
+}
+.quote {
+    color: white;
+    height: 85%;
+    margin-bottom: 10px;
+}
+.barraEsquerda {
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #555555;
+}
+.barraDireita {
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: 100%;
+}
+ul{
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 1.5vw;
+    margin-top: 30px;
+}
+li {
+    display: flex;
+    margin-bottom: 5px;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px;
+    border-radius: 25px;
+}
+li:hover{
+    background-color: #474747a9;
+}
+li img {
+    margin-right: 15px;
+    width: 25px;
+}
+.postar {
+    display: flex;
+    background-color: #00acee;
+    border: 2px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 8%;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.postar:hover{
+    background-color: #0f8abb;
+}
+.buscar {
+    height: 7%;
+    width: 70%;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #474747;
+    display: flex;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.caixaDireita {
+    width: 80%;
+    height: 28%;
+    margin: 0 auto;
+    margin-top: 22px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #474747;
+    border-radius: 20px;
+}
+.post {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+}
+.seta {
+    height: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px;
+    border-radius: 25px;
+}
+.seta:hover {
+    background-color: #474747a9;
+}
+.tweet {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 20%;
+    max-height: 50%;
+}
+.usuario {
+    display: flex;
+}
+.usuarioDois {
+    display: flex;
+}
+.frase {
+    width: 90%;
+    margin: 0 auto;
+    height: 40%;
+    margin-top: 2%;
+    font-size: 115%;
+}
+.info {
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    height: 20%;
+    margin: 0 auto;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ye {
+    font-weight: 600;
+}
+.ye:hover {
+    text-decoration: underline;
+}
+.seguir {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+    border: 2px;
+    border-radius: 100px;
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.seguir:hover {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.resposta {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+
+.respostaInput {
+    background-color: black;
+    border: 1px;
+    font-size: 1.5vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    min-width: 10vw;
+    max-width: 60vw;
+    height: 50px;
+}
+.fotosInfo {
+    height: 50%;
+}
+.fotosInfo:hover {
+    border: 1px;
+    background-color: #00abeea1;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.fotosHeart {
+    height: 50%;
+}
+.fotosHeart:hover {
+    border: 1px;
+    background-color: #b11431bb;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.fotosRepub {
+    height: 50%;
+}
+.fotosRepub:hover {
+    border: 1px;
+    background-color: #21a521bb;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header a img {
+    height: 45px;
+}
+.calendario {
+    color: #474747;
+    font-size: 1.5vw;
+}
+.resposta img{
+    height: 4vw;
+    margin-left: 20px;
+}
+
+.fotoPerfilDois {
+    height: 5vw;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.postarImg {
+    display: none;
+}
+
+@media screen and (max-width: 1020px)
+{
+    .barraDireita
+    {
+        display: none;
+    }
+    .barraEsquerda
+    {
+        width: 15%;
+    }
+    ul a li div {
+        display: none;
+    }
+    li {
+        width: 45px;
+    }
+    .barraEsquerda {
+        justify-content: center;
+    }
+    .postar {
+        width: 40px;
+        height: 40px;
+        
+    }
+    .postarP {
+        display: none;
+    }
+    .postarImg {
+        display: block;
+        width: 25px;
+    }
+    .container {
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .quote {
+        font-size: 3vw;
+    }
+    .calendario{
+        font-size: 2vw;
+    }
+    .respostaInput{
+        font-size: 2vw;
+    }
+    .resposta{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .barraEsquerda{
+        width: 100px;
+        display: none;
+    }
+    main{
+        width: 90%;
+        border: none;
+    }
+    .quote {
+        font-size: 5vw;
+    }
+    .calendario{
+        font-size: 3.5vw;
+    }
+    .respostaInput{
+        font-size: 3.5vw;
+        width: 200px;
+        margin-top: 0px;
+    }
+    .resposta{
+     margin-top: 5vw;
+     align-items: center;
+    }
+    .resposta img {
+        height: 40px;
+        margin-left: 20px;
+    }
+    .info{
+        margin-bottom: 0px;
+    }
+    .tweet{
+        height: 40% ;
+    }
+    .roleta{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}

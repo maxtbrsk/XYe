@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ye (@kanyewest / X)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Twitter_new_X_logo.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Frame.png"  alt="logo do app X em branco com um detalhe na fonte"></a>
+    </header>
+    <div class="container">
+        <div class="barraEsquerda">
+            <ul style="list-style: none;">
+                <a href="https://twitter.com/home"><li> <img src="house.svg" alt="ícone de casa"> <div class="listaEquerda">Página inicial</div> </li></a>
+                <a href="https://twitter.com/explore"><li> <img src="magnifying-glass.svg" alt="lupa"><div class="listaEquerda">Explorar</div> </li></a>
+                <a href="https://twitter.com/notifications"><li> <img src="bell.svg" alt="sininho"> <div class="listaEquerda">Notificações</div></li></a>
+                <a href="https://twitter.com/messages"><li> <img src="envelope-simple.svg" alt="envelope"><div class="listaEquerda">Mensagens</div></li></a>
+                <a href="https://twitter.com/d1cknb4Ils/lists"><li> <img src="clipboard-text.svg" alt="prancheta"><div class="listaEquerda">Listas</div></li></a>
+                <a href="https://twitter.com/i/verified-choose"><li> <img src="Frame.png" style="height: 25px;" alt="ícone de X"><div class="listaEquerda">Premium</div></li></a>
+                <a href="https://twitter.com/home"><li> <img src="user.svg" alt="usuário"><div class="listaEquerda">Perfil</div></li></a>
+                <a href=""><li> <img src="dots-three-circle.svg" alt="Três pontos"><div class="listaEquerda">Mais</div></li></a>
+            </ul>
+            <div class="postar">
+                <p class="postarP">Postar</p>
+                <img src="feather.svg" alt="pena de escrever" class="postarImg">
+            </div>
+        </div>
+        <main>
+            <div class="post">
+                <img src="arrow-left.svg" alt="seta apontando para a esquerda" class="seta">
+                <p style="font-weight: 600; font-size: 150%;">Post</p>
+            </div> 
+            <div class="tweet">
+                <div class="usuario">
+                    <img src="perfilYE.png" alt="Foto de perfil" style="height:65px; box-sizing: border-box; padding: 10px;">
+                    <div>
+                        <p class="ye">ye</p>
+                        <p style="color: #9b9b9b80; margin-top: -10px;">@kanyewest</p>
+                    </div>
+                </div>
+                 <div class="frase">
+                    <div class="quote" id="quote"></div>
+                    <div class="calendario" id="calendario"></div>
+                 </div>
+                <div class="info">
+                    <img src="chat-circle (1).svg" alt="comentários" class="fotosInfo">
+                    <img src="arrows-clockwise.svg" alt="republicar" class="fotosRepub" id="fotosRepub" onclick="trocarImagemDois()">
+                    <img src="heart.svg"  alt="curtir" class="fotosHeart" id="fotosHeart" onclick="trocarImagemUm()">
+                    <img src="bookmark-simple.svg" alt="salvar" class="fotosInfo" id="fotosInfo" onclick="trocarImagemTres()">
+                    <img src="upload-simple (1).svg" alt="compartilhar" class="fotosInfo">
+                </div>
+            </div>
+            <div class="resposta">
+                <div style="width: 60%; display: flex; align-items: center;">
+                <img src="avatar-site.png" alt="Sem foto de perfil">
+                <input type="text" placeholder="Postar sua resposta" class="respostaInput">
+                </div>
+                <button class="roleta" onclick="botao()">Gerar Tweet</button>
+            </div>
+        </main>
+        <div class="barraDireita">
+            <input type="text" placeholder="Buscar" class="buscar" style="color: white;">
+            <div class="caixaDireita">
+                <p style="font-weight: 600; width: 100%; margin-top: 1px; font-size: 20px;">Pessoas relevantes</p>
+                <div style="display: flex;">
+                <div class="usuarioDois" >
+                    <img src="perfilYE.png" alt="Foto de perfil" class="fotoPerfilDois">
+                    <div>
+                        <p class="ye">ye</p>
+                        <p style="color: #9b9b9b80; margin-top: -10px;">@kanyewest</p>
+                    </div>
+                </div>
+                <div class="seguir" id="seguir" onclick="trocarSeguir()">Seguir</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
